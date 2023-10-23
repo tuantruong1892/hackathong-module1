@@ -52,17 +52,22 @@ html {
 }
 .main-img .main-img-item {
   width: 27%;
+  border-radius: 2%;
 }
 .main .main-img-item img {
   width: 100%;
+  border-radius: 1%;
   height: auto;
 }
-.main .main-img-item .main-img-text {
+.main .main-img .main-img-item {
   background-color: #015551;
+}
+.main .main-img-item .main-img-text {
   width: 100%;
   text-align: center;
   color: white;
 }
+
 @media (max-width: 768px) {
   .main-img {
     flex-direction: column;
